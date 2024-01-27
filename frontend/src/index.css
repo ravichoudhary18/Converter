@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --project-primary-bg-color: rgb(54,145,242);
+    --project-primary-color: rgb(193,226,252);
+}
+.nav__primary__bg__color{
+    background-color: var(--project-primary-bg-color);
+    color: var(--project-primary-color);
+}
+.primary__color{
+    color: var(--project-primary-color);
+}

@@ -1,12 +1,15 @@
-import { Button } from '@mui/material';
 import React from 'react';
 import useAxiosPrivate from '../../hooks/useAxiosPrivate'
+import Button from 'react-bootstrap/Button';
+import NavBar from '../navBar/NavBar'
+
 
 const Home = () => {
 
     return (
         <div>
-            <p>Home</p>
+            <NavBar />
+            <Button>Home</Button>
         </div>
     );
 }
